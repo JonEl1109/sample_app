@@ -1,4 +1,17 @@
 Rails.application.routes.draw do
+  get 'welcome2/index'
+  get 'welcome2/hello'
+
+  get 'welcome2/login'
+
+  get 'welcome2/sign_out'
+
+  get 'welcome2/about'
+
+  get 'welcome2/bio'
+
+  get 'welcome2/mission_statement'
+
   get 'static_pages/home'
   get 'static_pages/help'
   get 'static_pages/about'
