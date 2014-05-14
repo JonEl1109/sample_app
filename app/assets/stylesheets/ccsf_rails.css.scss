@@ -1,0 +1,17 @@
+// Place all the styles related to the ccsf_rails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$h1_color: Chartreuse;
+$base_font: arial, sans-serif;
+$code_color: Gold;
+$code_font: courier;
+$code_weight: bold;
+
+.content {
+	font-family: $base_font;
+	h1 { margin: 20px 0; border: 2px solid Lime; border-radius: 4px 4px; padding: 10px 0; text-align: center; background-color: DarkOliveGreen; color: $h1_color; }
+	p { margin: 0; border: none; padding: 0 0 0 40px; 
+		.page_location { color: $code_color; font-family: $code_font; font-weight: $code_weight;}
+	}
+}

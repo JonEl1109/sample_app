@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'ccsf_rails/index'
+
+  get 'ccsf_rails/login'
+
+  get 'ccsf_rails/links'
+
+  get 'ccsf_rails/help'
+
+  get 'ccsf_rails/about'
+
+  get 'ccsf_rails/logout'
+
   get 'welcome2/index'
   get 'welcome2/hello'
 
